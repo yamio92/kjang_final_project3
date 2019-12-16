@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* General Styles */
+
+article, aside, body, 
+div, footer, 
+h1,header, html, img, 
+li, main, nav, p, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+    background-color: rgb(12, 11, 11);
+}
+/* Body Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(41, 8, 83);
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    font-size: 16px;   
+    width: 1152px;
+}
+/* Article Styles */
+
+body > article {
+    background-color: rgb(130, 128, 134);
+}
+body > article > h1 {
+    font-size: 1.5em;
+    margin: 20px;
+}
+body > article > p {
+    margin: 20px;
+} 
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+    background-color: rgb(96, 87, 70);
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    width: 192px;
+}
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+nav.horizontal a:link, nav.horizontal:visited {
+    color: rgb(216, 194, 157);
+}
+ 
+ nav.horizontal a:hover, nav.horizontal:active {
+    background-color: rgb(62, 56, 45);
+}
+/* Article Styles */
+
+body > article {
+    background-color: rgb(182, 163, 132);
+    color: aquamarine;
+}
+ 
+ body > article > h1 {
+    font-size: 1.5em;
+    margin: 20px;
+}
+ 
+ body > article > p {
+    margin: 20px;
+}  
+ 
+
+/* Aside Styles */
+
+body > aside {
+    float: left;
+    width: 768px;
+    background-color: rgb(10, 73, 73);
+    color: aquamarine;
+    
+}
+body > aside > h1 {
+    font-size: 1.5em;
+    margin: 20px;
+} 
+aside p {
+    line-height: 1.4em;
+    margin: 20px;
+}
+/* Footer Styles */
+
+body > footer {
+    background-color: rgb(62, 56, 45);
+    clear: both;
+    color: rgb(216, 194, 157);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: aquamarine;
+}
+section> img {
+    
+        width: 100%;
+        height: 400px;
+        
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid red;
+      
+}
+
