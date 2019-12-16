@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Structural Styles */
+html {
+    background-color: hsl(90, 30%, 15%);
+}
+header{
+    background-color: black;
+    background-size: 100% 100%;
+}
+
+body {
+    background-color: hsl(58, 31%, 84%);
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+body > p {
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+p {
+    margin: 0px;
+    padding: 5px 25px 25px 25px;
+    color: blueviolet;
+}
+p,h1 {
+    color: blueviolet;
+}
+
+/* Navigation Styles */
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 42%, 0.4);
+}
+ nav a:hover, nav a:active {
+    color: hsla(0, 0%, 100%, 0.7);
+    text-decoration: none;
+    background-color: hsl(0, 0%, 42%, 0.7);      
+}
+nav.horizontal ul li {
+    background-color: rgb(96, 87, 70);
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    width: 192px;
+}
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+nav.horizontal a:link, nav.horizontal:visited {
+    color: rgb(216, 194, 157);
+}
+ 
+ nav.horizontal a:hover, nav.horizontal:active {
+    background-color: rgb(62, 56, 45);
+}
+
+/* aside style */
+body > aside {
+    float: left;
+    width: 768px;
+    background-color: rgb(10, 73, 73);
+    color: aquamarine;
+    
+}
+body > aside > h1 {
+    font-size: 1.5em;
+    margin: 20px;
+} 
+aside p {
+    line-height: 1.4em;
+    margin: 20px;
+}
+aside>image {
+    max-width: 100%;
+    height: auto;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid red;
+}
+/* Footer Styles */
+
+body > footer {
+    background-color: rgb(62, 56, 45);
+    clear: both;
+    color: rgb(216, 194, 157);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: aquamarine;
+}
